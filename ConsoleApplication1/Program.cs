@@ -10,6 +10,9 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            Student stu = new Student();
+            stu.Task();
+            stu.WriteInfo();
         }
     }
 }
